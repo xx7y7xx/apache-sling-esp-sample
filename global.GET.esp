@@ -8,6 +8,6 @@
 // TODO(d3vin.chen@gmail.com): Where to find the list of all service? /system/console/services ?
 var tpm = sling.getService(Packages.org.apache.sling.commons.threads.ThreadPoolManager);
 var tp = sling.getService(Packages.org.apache.sling.commons.threads.ThreadPool);
+var RhinoHostObjectProvider = sling.getService(Packages.org.apache.sling.scripting.javascript.RhinoHostObjectProvider); // null
 
-out.println(typeof Packages.org.apache.sling.commons.threads.ThreadPoolManager); // function
 %>
